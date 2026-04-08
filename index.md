@@ -84,6 +84,8 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 <p id="what">
   <strong>About this workshop:</strong>
   This is a workshop is an advanced level course for learners already familiar with the Python programming language. Learners are expected to have some intermediate prior experience in Python, and to to comfortable using Python on their own computer or on the <a href="https://notebooks.noc.ac.uk">NOC Digital Science Platform</a>.
+
+  Course notes can be found at <a href="https://nerc-esces.github.io/python-advanced-esces/">https://nerc-esces.github.io/python-advanced-esces/</a>.
 </p>
 
 {% assign begin_address = page.address | slice: 0, 4 | downcase  %}
