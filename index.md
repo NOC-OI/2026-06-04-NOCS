@@ -19,6 +19,7 @@ email: ["colin.sauze@noc.ac.uk"]    # boxed, comma-separated list of contact ema
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite: 1986433320535          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 what3words:           # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
+enable_survey: false
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -214,7 +215,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% endif %}
 
 
-{% if site.pre_survey %}
+{% if enable_survey %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "incubator" %}
